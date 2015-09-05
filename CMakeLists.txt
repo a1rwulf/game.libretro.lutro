@@ -7,7 +7,7 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 enable_language(CXX)
 
 find_package(kodi REQUIRED)
-find_package(lutro REQUIRED)
+find_package(libretro-lutro REQUIRED)
 
 set(DEPLIBS lutro)
 set(LUTRO_CUSTOM_BINARY ${LUTRO_LIB}
